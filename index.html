@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Numpy In A Nutshell</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Tests Script -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <main id="main">
+        <h1 id="title">Numpy In A Nutshell</h1>
+        <figure id="img-div">
+
+            <img id="image" src="NumpyInANutshell.png" alt="" />
+            <figcaption id="img-caption">
+                The text Numpy in a nutshell over an abstract code background.
+            </figcaption>
+        </figure>
+        <section id="tribute-info">
+            <section id="intro">
+                <p>
+                    Numpy is a Python package used for scientific computing across
+                    various industries ranging from astronomy, energy,
+                    finance, to medicine, and robotics. The foundation of Numpy is
+                    arrays(Called ndarrays) that are much more efficient than the standard structures
+                    built into Python. This performance is achieved through a number of
+                    means such as making the ndarrays fixed in size after creation unlike built in Python list
+                    structures,
+                    removing the overhead required to make the lists dynamic. Another difference between the two being
+                    that ndarray elements are contiguous in memory, allowing
+                    memory maps to less complicated, and retrieval to be faster as algorithms can just stride back and
+                    forth
+                    rather than having to pull from random locations in memory.
+                </p>
+
+                <p>
+                    Another method Numpy uses to achieve its efficiency is by calling functions that are written in C
+                    and C++,
+                    both having its own and by hooking into those built by others, such as Intel's OneMKL(Math Kernel
+                    Library).
+                    OneMKL streamlines the code execution by replacing Python loops where every instruction is preformed
+                    one at a time with
+                    SIMD(Single Instruction Multiple Data) commands that can perform several operations at one time.
+
+                </p>
+            </section>
+            <section id="applications">
+                <p> Use of Numpy has helped with several scientific discoveries such as
+                    <a rel="noopener" target="_blank" href="https://numpy.org/case-studies/blackhole-image/">the first
+                        imaging of a black hole</a>. On a more day to day basis Numpy is used by machine learning
+                    libraries such as Tensorflow to aide in
+                    fraud detection, image analysis, and recommendation systems.
+                </p>
+            </section>
+            <section id="outro">
+                <p>
+                    Numpy's other strength is the ecosystem surrounding it, which is
+                    composed of the nonprofits and businesses that support its
+                    development. The managing organization is NumFOCUS, which at this time oversees
+                    Numpy and over 70 other projects focused on data science.
+
+                <p>
+                    For more information visit the official
+                    <a id="tribute-link" rel="noopener" target="_blank" href="https://numpy.org/">Numpy</a> site.
+                </p>
+                </p>
+            </section>
+        </section>
+
+        <section id="aboutauthor">
+            <div>
+                <img id="headshot" src="stevenkellheadshot (1).png" alt="">
+                <p>Steven Kell is a data-science enthusiast who has been part of the
+                    <a href="https://pydata.org/">PyData</a> and <a href="https://numfocus.org/">NumFOCUS</a>
+                    communities for almost half a decade. He is almost always helping
+                    or running the social media campaign for at least one conference.
+                </p>
+                <div>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/steven-kell/">LinkedIn</a></li>
+                        <li><a href="https://github.com/StevenKell">Github</a></li>
+                        <li><a href="https://stevenkell.github.io/design-portfolio/">Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Steven Kell 2024</p>
+    </footer>
+</body>
+
+</html>
